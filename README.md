@@ -3,6 +3,8 @@
 ## Overview
 Welcome to crtSnaffler! This tool is designed to help you retrieve and analyze SSL/TLS certificate information associated with a specific domain. Whether you're a cybersecurity enthusiast, a web administrator, or simply curious about the security of a website, crtSnaffler provides a convenient way to explore the certificates used by a domain.
 
+![help](crtSnaffler-help.jpg)
+
 ## How it Works
 crtSnaffler is a Python script that leverages the crt.sh database, a well-known resource for certificate transparency logs. By querying crt.sh with a given domain, crtSnaffler collects and organizes certificate information related to that domain. It then extracts the common names (domain names) from these certificates and presents them in a readable format.
 
